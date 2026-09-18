@@ -5,8 +5,11 @@
 .nitro
 .cache
 dist
+.wrangler
+.vercel
+dist
 
-# Node
+# Node dependencies
 node_modules
 
 # Logs
@@ -18,15 +21,7 @@ logs
 .fleet
 .idea
 
-# Local env
+# Local env files
 .env
 .env.*
 !.env.example
-
-# Wrangler
-.wrangler
-.dev.vars
-
-# Editor
-*.swp
-*.swo
