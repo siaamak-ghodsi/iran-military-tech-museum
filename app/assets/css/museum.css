@@ -1,0 +1,78 @@
+:root {
+  --museum-bg: #0a0c10;
+  --museum-bg-elevated: #12151c;
+  --museum-bg-card: #161a24;
+  --museum-border: #2a3142;
+  --museum-text: #e8ecf4;
+  --museum-text-muted: #9aa3b5;
+  --museum-accent: #6b9bd1;
+  --museum-accent-dim: #3d5a80;
+  --museum-gold: #c4a574;
+  --museum-success: #5a9a7a;
+  --museum-warn: #c9a227;
+  --museum-danger: #c76b6b;
+  --museum-font-display: 'Segoe UI', system-ui, sans-serif;
+  --museum-font-body: 'Segoe UI', system-ui, sans-serif;
+  --museum-radius: 0.375rem;
+  --museum-shadow: 0 24px 48px rgba(0, 0, 0, 0.45);
+}
+
+html {
+  background: var(--museum-bg);
+  color: var(--museum-text);
+  font-family: var(--museum-font-body);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.museum-grid-bg {
+  background-image:
+    linear-gradient(rgba(107, 155, 209, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(107, 155, 209, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.museum-card {
+  background: var(--museum-bg-card);
+  border: 1px solid var(--museum-border);
+  border-radius: var(--museum-radius);
+}
+
+.museum-link {
+  color: var(--museum-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.museum-link:hover {
+  color: var(--museum-text);
+}
+
+.timeline-scroll {
+  scrollbar-color: var(--museum-accent-dim) var(--museum-bg-elevated);
+}
+
+.confidence-confirmed {
+  --badge: var(--museum-success);
+}
+.confidence-strongly_documented {
+  --badge: var(--museum-accent);
+}
+.confidence-probable {
+  --badge: var(--museum-gold);
+}
+.confidence-disputed {
+  --badge: var(--museum-warn);
+}
+.confidence-unknown {
+  --badge: var(--museum-text-muted);
+}
