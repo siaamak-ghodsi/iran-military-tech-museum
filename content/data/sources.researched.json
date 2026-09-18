@@ -1,1 +1,437 @@
-{}
+{
+  "generatedAt": "2026-09-17",
+  "accessedAtDefault": "2026-09-17",
+  "sourceCount": 35,
+  "sources": [
+    {
+      "id": "src-aviatia-iranian-f14",
+      "title": "Iranian F-14",
+      "url": "https://aviatia.net/iranian-f-14/",
+      "authorOrOrg": "Aviatia",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "79 F-14As delivered 1976-1978; 80th retained in US; AWG-9/Phoenix retained.",
+      "confidence": "Strongly documented",
+      "notes": "Secondary compilation; corroborate with Key.Aero.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-aviationist-kowsar",
+      "title": "Three Kowsar Jets delivered",
+      "url": "https://theaviationist.com/2020/06/25/iranian-air-force-delivered-three-kowsar-jets-domestically-upgraded-f-5fs-destined-to-its-new-aerobatic-team/",
+      "authorOrOrg": "The Aviationist",
+      "publishedAt": "2020-06-25",
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Kowsar is domestically upgraded/built F-5F-derived; Saeqeh is F-5 modification.",
+      "confidence": "Strongly documented",
+      "notes": "Distinguishes derivatives from clean-sheet fighters.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-baugher-f5-iran",
+      "title": "Northrop F-5E/F Tiger II in Service with Iran",
+      "url": "https://www.joebaugher.com/usaf_fighters/f5_49.html",
+      "authorOrOrg": "Joseph F. Baugher",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "F-5E/F deliveries mid-1970s; post-revolution embargo/spares crisis.",
+      "confidence": "Strongly documented",
+      "notes": "Open aviation encyclopedia.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-csis-bavar-2019",
+      "title": "Iran Fields New Air Defense System",
+      "url": "https://missilethreat.csis.org/iran-fields-new-air-defense-system/",
+      "authorOrOrg": "CSIS Missile Threat / Masao Dahlgren",
+      "publishedAt": "2019-08-22",
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Bavar-373 inducted 21 Aug 2019; claimed track 60 targets; max engagement 250 km; unveiled 2016.",
+      "confidence": "Strongly documented",
+      "notes": "Engagement figures are official claims.",
+      "conflictsWith": [
+        "src-wits-airdefense-2023"
+      ]
+    },
+    {
+      "id": "src-defensepost-bavar",
+      "title": "Iran officially unveils Bavar-373",
+      "url": "https://thedefensepost.com/2019/08/22/iran-bavar-373-air-defense-system/",
+      "authorOrOrg": "The Defense Post",
+      "publishedAt": "2019-08-22",
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Formal unveiling/induction Aug 2019 after S-300 delivery issues.",
+      "confidence": "Strongly documented",
+      "notes": "Secondary journalism.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-globalsecurity-fateh",
+      "title": "Fateh-110 / NP-110 / Mushak",
+      "url": "https://www.globalsecurity.org/wmd/world/iran/mushak.htm",
+      "authorOrOrg": "GlobalSecurity.org",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Solid-propellant SSM; reported ranges by generation; May 2001 and Sep 2002 tests; Zelzal/CSS-8 lineage discussed.",
+      "confidence": "Probable",
+      "notes": "Aggregates claims; ranges disputed.",
+      "conflictsWith": [
+        "src-wisconsin-missile-history"
+      ]
+    },
+    {
+      "id": "src-globalsecurity-kaman-sina",
+      "title": "Kaman/Sina Class",
+      "url": "https://www.globalsecurity.org/military/world/iran/kaman.htm",
+      "authorOrOrg": "GlobalSecurity.org",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "12 French Combattante II (Kaman) 1974-81; Sina Iranian-built near-copy; Paykan/Joshan mid-2000s; Harpoon replaced by Noor/C-802 family.",
+      "confidence": "Strongly documented",
+      "notes": "Speed claims vary.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-globalsecurity-khalid",
+      "title": "FV4030/2 / Shir 1 / Khalid MBT",
+      "url": "https://www.globalsecurity.org/military/world/europe/khalid.htm",
+      "authorOrOrg": "GlobalSecurity.org",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Shir 1 developed for Iran; revolution cancelled order; Jordan Khalid based on Shir 1.",
+      "confidence": "Strongly documented",
+      "notes": "Consistent with Tank Museum/Osprey narrative.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-globalsecurity-peykaap",
+      "title": "Peykaap Class",
+      "url": "https://www.globalsecurity.org/military/world/iran/peykaap.htm",
+      "authorOrOrg": "GlobalSecurity.org",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "IPS-16 Peykaap small high-speed craft; claimed indigenous but reportedly North Korean origin 2002; Peykaap II missile modification.",
+      "confidence": "Probable",
+      "notes": "Origin disputed.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-globalsecurity-t72s",
+      "title": "T-72S (Iran)",
+      "url": "https://www.globalsecurity.org/military/world/iran/t-72s.htm",
+      "authorOrOrg": "GlobalSecurity.org",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "1991 Russia-Iran license deal; Dorud facility; production start 8 Jul 1997; first Iranian-produced Jul 1998.",
+      "confidence": "Strongly documented",
+      "notes": "Secondary but detailed.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-iiaf-f14",
+      "title": "F14 – IIAF",
+      "url": "http://www.iiaf.net/f14/",
+      "authorOrOrg": "iiaf.net",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Only foreign F-14 operator; 1974 orders; first arrivals Jan 1976; MiG-25 context.",
+      "confidence": "Strongly documented",
+      "notes": "IIAF historical site.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-iranica-firearms-i",
+      "title": "FIREARMS i. HISTORY",
+      "url": "https://www.iranicaonline.org/articles/firearms-i-history/",
+      "authorOrOrg": "Encyclopaedia Iranica",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Historical overview of firearms in Iranian military history.",
+      "confidence": "Confirmed",
+      "notes": "Companion article.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-iranica-firearms-ii",
+      "title": "FIREARMS ii. PRODUCTION OF CANNON AND MUSKETS",
+      "url": "https://www.iranicaonline.org/articles/firearms-ii-production-of-cannon-and-muskets/",
+      "authorOrOrg": "Encyclopaedia Iranica",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Academic survey of Iranian cannon and musket production.",
+      "confidence": "Confirmed",
+      "notes": "URL verified 2026-09-17; body sometimes JS-gated.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-iranwatch-milestones",
+      "title": "Iran's Missile Milestones 1984-2023",
+      "url": "https://www.iranwatch.org/our-publications/weapon-program-background-report/iran-missile-milestones-1984-2023",
+      "authorOrOrg": "Wisconsin Project / Iran Watch",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Mersad operational Apr 2010 with Shahin (HAWK-derived); Fateh-110 milestones.",
+      "confidence": "Strongly documented",
+      "notes": "URL verified via search; Cloudflare may block some fetches.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-janes-uav-ababil",
+      "title": "Jane's Unmanned 2014-2015 Ababil (via citation)",
+      "url": "https://en.wikipedia.org/wiki/HESA_Ababil",
+      "authorOrOrg": "IHS Jane's (cited in Wikipedia HESA Ababil)",
+      "publishedAt": "2014",
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Ababil program mid-1980s; Ababil-2 variants; Ababil-3 ISR redesign; Ababil-2 specs.",
+      "confidence": "Strongly documented",
+      "notes": "Streetly ed. pp.79-80.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-janes-uav-mohajer",
+      "title": "Jane's Unmanned 2014-2015 Mohajer (via citation)",
+      "url": "https://en.wikipedia.org/wiki/Qods_Mohajer",
+      "authorOrOrg": "IHS Jane's (cited in Wikipedia Qods Mohajer)",
+      "publishedAt": "2014",
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Mohajer family by Qods; Mohajer-2/4 published dimensions and endurance.",
+      "confidence": "Strongly documented",
+      "notes": "Primary Jane's paywalled; Streetly ed. pp.81-82.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-key-ah1j-upgrade",
+      "title": "Iran's recently upgraded AH-1J Cobra fleet",
+      "url": "https://www.key.aero/article/depth-irans-recently-upgraded-ah-1j-cobra-fleet",
+      "authorOrOrg": "Key.Aero (Babak Taghvaee)",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "IRGC Army Aviation also operates a small AH-1J fleet with IAMI modernization.",
+      "confidence": "Strongly documented",
+      "notes": "Clarifies dual operators.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-key-f14-50",
+      "title": "F-14 AT 50: Iran's Feral Tomcats",
+      "url": "https://www.key.aero/article/f-14-50-irans-feral-tomcats",
+      "authorOrOrg": "Key.Aero / Key Publishing",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Iran only export F-14 customer; order expanded to 80; deliveries mid-1970s; Iran-Iraq War use; declining serviceable numbers mid-1980s.",
+      "confidence": "Strongly documented",
+      "notes": "Specialist aviation journalism.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-key-f4-ageing",
+      "title": "Keeping ageing F-4 Phantom IIs flying",
+      "url": "https://www.key.aero/article/how-does-iran-manage-keep-its-ageing-f-4-phantom-iis-flying",
+      "authorOrOrg": "Key.Aero (Babak Taghvaee)",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "IRIAF still operates F-4D/E; Mehrabad overhaul complex; domestic sustainment.",
+      "confidence": "Strongly documented",
+      "notes": "Fleet counts are estimates.",
+      "conflictsWith": [
+        "src-key-phantom-survivors"
+      ]
+    },
+    {
+      "id": "src-key-f5-fleet",
+      "title": "Keeping the F-5E/F Tiger II fleet in service",
+      "url": "https://www.key.aero/article/keeping-iranian-air-force-f-5ef-tiger-ii-fleet-service",
+      "authorOrOrg": "Key.Aero (Babak Taghvaee)",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "IAMI/HESA modernization; Kowsar named 2018; three upgraded F-5Fs June 2020.",
+      "confidence": "Strongly documented",
+      "notes": "Fleet size estimates.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-key-phantom-survivors",
+      "title": "Phantom Survivors: Iranian Survivors",
+      "url": "https://www.key.aero/article/phantom-survivors-iranian-survivors",
+      "authorOrOrg": "Key.Aero",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Pre-1979: about 32 F-4D, 177 F-4E, 16 RF-4E; embargo truncated final batches.",
+      "confidence": "Strongly documented",
+      "notes": "Airworthy counts disputed.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-redstone-hawk",
+      "title": "HAWK (Redstone Arsenal Historical Information)",
+      "url": "https://history.redstone.army.mil/miss-hawk.html",
+      "authorOrOrg": "U.S. Army / Redstone Arsenal historical office",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "July 1972: IIAF FMS for 24 Improved HAWK batteries nearly USD 280m; PEACE SHIELD; suspended 4 Nov 1979.",
+      "confidence": "Confirmed",
+      "notes": "Primary U.S. Army chronology.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-sadefense-toophan3",
+      "title": "Iran’s Toophan-3 Anti-Tank Guided Weapon",
+      "url": "https://sadefensejournal.com/dispatches-irans-toophan-3-anti-tank-guided-weapon/",
+      "authorOrOrg": "Small Arms Defense Journal / ARES (Miles Vining)",
+      "publishedAt": "2023-10-13",
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Toophan family from 1970s TOW co-production path; Toophan-1 early TOW-like; later Iranian variants; claimed T3 specs from MOD export page.",
+      "confidence": "Strongly documented",
+      "notes": "Origin: incomplete licensed pathway then reverse engineering.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-scramble-iriaf-orbat",
+      "title": "Isl. Rep. of Iran Air Force ORBAT",
+      "url": "https://www.scramble.nl/planning/orbats/iran/isl.-rep.-of-iran-air-force",
+      "authorOrOrg": "Scramble / Dutch Aviation Society",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "F-4E/D still at multiple TABs.",
+      "confidence": "Probable",
+      "notes": "ORBAT compilations change.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-state-frus-tow",
+      "title": "FRUS historical document (Iran arms industrialization context)",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76v27/d94",
+      "authorOrOrg": "U.S. Department of State Office of the Historian",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "1970s U.S.-Iran arms industrialization/TOW-related cooperation context.",
+      "confidence": "Confirmed",
+      "notes": "Primary diplomatic document.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-tagc-persian-king",
+      "title": "How Iran saved Grumman and the F-14 program",
+      "url": "https://theaviationgeekclub.com/how-iran-saved-grumman-and-the-f-14-program-and-the-story-of-the-training-of-the-first-tomcat-pilots-of-the-imperial-iranian-air-force/",
+      "authorOrOrg": "The Aviation Geek Club (citing Cooper & Bishop)",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Project Persian King contracts 1974; training at Miramar.",
+      "confidence": "Strongly documented",
+      "notes": "Draws on Osprey scholarship.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-wiki-ababil",
+      "title": "HESA Ababil",
+      "url": "https://en.wikipedia.org/wiki/HESA_Ababil",
+      "authorOrOrg": "Wikipedia",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Ababil-1 obscure; Ababil-2 multi-role; Ababil-3 ISR; Seeker influence disputed.",
+      "confidence": "Probable",
+      "notes": "Ababil-1 nearly undocumented.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-wiki-ah1-supercobra",
+      "title": "Bell AH-1 SuperCobra",
+      "url": "https://en.wikipedia.org/wiki/Bell_AH-1_SuperCobra",
+      "authorOrOrg": "Wikipedia",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Iran purchased 202 AH-1J International; 62 TOW-capable; Army Aviation operator; later Toufan upgrades.",
+      "confidence": "Strongly documented",
+      "notes": "Operated by Army Aviation, not IRIAF.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-wiki-bmp1-operators",
+      "title": "List of BMP-1 operators",
+      "url": "https://en.wikipedia.org/wiki/List_of_BMP-1_operators",
+      "authorOrOrg": "Wikipedia",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Iran obtained BMP-1s via multiple 1980s channels; Chinese Type 86; Boragh derived.",
+      "confidence": "Probable",
+      "notes": "Import numbers vary by yearbook.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-wiki-chieftain",
+      "title": "Chieftain (tank)",
+      "url": "https://en.wikipedia.org/wiki/Chieftain_(tank)",
+      "authorOrOrg": "Wikipedia (citing Dunstan Osprey; SIPRI; IISS)",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Iran received 707 Mk3P/Mk5P plus 187 FV4030/1, 41 ARV, 14 AVLB; Shir 1/2 cancelled 1979; Mobarez is Iranian upgrade.",
+      "confidence": "Strongly documented",
+      "notes": "Wartime loss figures disputed.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-wiki-mobarez",
+      "title": "Mobarez (tank)",
+      "url": "https://en.wikipedia.org/wiki/Mobarez_(tank)",
+      "authorOrOrg": "Wikipedia",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Mobarez is Iranian domestic upgrade of Chieftain.",
+      "confidence": "Probable",
+      "notes": "Specific Mobarez performance numbers poorly sourced.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-wiki-mohajer",
+      "title": "Qods Mohajer",
+      "url": "https://en.wikipedia.org/wiki/Qods_Mohajer",
+      "authorOrOrg": "Wikipedia",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Mohajer-1 wartime ISR; Mohajer-2/4 evolutionary ISR; Mohajer-3 did not enter service.",
+      "confidence": "Probable",
+      "notes": "Early performance claims often citation-needed.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-wiki-panha-2091",
+      "title": "Panha 2091",
+      "url": "https://en.wikipedia.org/wiki/Panha_2091",
+      "authorOrOrg": "Wikipedia",
+      "publishedAt": null,
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Panha 2091 Toufan is Iranian overhaul/upgrade of AH-1J International.",
+      "confidence": "Probable",
+      "notes": "Thin sourcing on some claims.",
+      "conflictsWith": []
+    },
+    {
+      "id": "src-wisconsin-missile-history",
+      "title": "A History of Iran’s Ballistic Missile Program",
+      "url": "https://www.wisconsinproject.org/a-history-of-irans-ballistic-missile-program/",
+      "authorOrOrg": "Wisconsin Project on Nuclear Arms Control",
+      "publishedAt": "2012",
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Fateh-110 solid-fuel SRBM; domestic solid-propellant claims ~2000; tests 2001-2002; production plant announcement 2002.",
+      "confidence": "Strongly documented",
+      "notes": "Historical/technical only.",
+      "conflictsWith": [
+        "src-globalsecurity-fateh"
+      ]
+    },
+    {
+      "id": "src-wits-airdefense-2023",
+      "title": "Major Iranian Air Defense Missile Systems, 2023",
+      "url": "https://www.washingtoninstitute.org/sites/default/files/pdf/2023-iran-airdefense-systems-table-POL3813.pdf",
+      "authorOrOrg": "Washington Institute for Near East Policy",
+      "publishedAt": "2023",
+      "accessedAt": "2026-09-17",
+      "relevantClaim": "Mersad/Qader and Bavar-373 claimed parameters tabulated.",
+      "confidence": "Strongly documented",
+      "notes": "Many Bavar figures unverified.",
+      "conflictsWith": [
+        "src-csis-bavar-2019"
+      ]
+    }
+  ]
+}
