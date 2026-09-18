@@ -43,7 +43,7 @@ npx wrangler deploy --config wrangler.jsonc
 
 After deploy, the app is served on your account’s **`*.workers.dev`** subdomain (e.g. `iran-military-tech-museum.<your-subdomain>.workers.dev`).
 
-**Cloudflare Pages (Git):** connect repo branch **`museum-main`**, build `pnpm install && pnpm build`, or use **`pnpm build:pages`** with output directory **`dist`**. See **`docs/CLOUDFLARE-PAGES-GIT.md`**.
+**Cloudflare Pages (Git):** connect repo branch **`main`**, build `pnpm install && pnpm build`, or use **`pnpm build:pages`** with output directory **`dist`**. See **`docs/CLOUDFLARE-PAGES-GIT.md`**.
 
 Full instructions: **`docs/preview.md`**.
 
