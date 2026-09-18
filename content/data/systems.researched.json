@@ -1,1 +1,489 @@
-__ENV__
+{
+  "generatedAt": "2026-09-17",
+  "methodologyNote": "Accuracy-first educational museum seed. Prefer null over invention. Every specification carries a confidence tag. No operational targeting, construction recipes, or lethality-optimization content.",
+  "systemCount": 5,
+  "systems": [
+    {
+      "id": "f-14a-tomcat-iriaf",
+      "names": {
+        "en": "Grumman F-14A Tomcat (IRIAF)",
+        "fa": "اف-۱۴ تام‌کت"
+      },
+      "alternativeNames": [
+        "F-14A-GR",
+        "Persian King Tomcat"
+      ],
+      "designation": "F-14A",
+      "category": "aircraft",
+      "originCountry": "United States",
+      "originType": "imported",
+      "developer": "Grumman",
+      "manufacturer": "Grumman",
+      "developmentPeriod": "late 1960s–early 1970s (USN)",
+      "introductionPeriod": "1976–1978 (IIAF/IRIAF deliveries)",
+      "productionStatus": "out_of_production",
+      "serviceStatus": "in_service_limited",
+      "historicalPeriod": "pahlavi|iran-iraq-war|post-war",
+      "description": {
+        "en": "Twin-engine, two-seat air-superiority fighter. Iran is the only foreign customer. Ordered under Project Persian King in 1974 and delivered from 1976, Iranian Tomcats retained AWG-9 radar and AIM-54 Phoenix capability. After 1979 and the U.S. embargo, IRIAF sustained a reduced fleet through domestic maintenance and flew them extensively in the Iran–Iraq War.",
+        "fa": null
+      },
+      "historicalContext": {
+        "en": "Selected partly to counter high-altitude Soviet MiG-25 overflights. Contracts covered 80 aircraft; sources agree 79 were delivered and the 80th retained in the United States.",
+        "fa": null
+      },
+      "technologicalSignificance": {
+        "en": "Only non-U.S. Tomcat operator; AWG-9/Phoenix suite drove decades of Iranian sustainment effort.",
+        "fa": null
+      },
+      "specifications": [
+        {
+          "key": "aircraft_ordered",
+          "value": "80",
+          "unit": null,
+          "confidence": "Confirmed",
+          "notes": "Expanded from initial 30 to 80 in 1974."
+        },
+        {
+          "key": "aircraft_delivered",
+          "value": "79",
+          "unit": null,
+          "confidence": "Confirmed",
+          "notes": "80th retained in US."
+        },
+        {
+          "key": "crew",
+          "value": "2",
+          "unit": null,
+          "confidence": "Confirmed",
+          "notes": "Pilot and RIO."
+        },
+        {
+          "key": "primary_radar",
+          "value": "AN/AWG-9",
+          "unit": null,
+          "confidence": "Confirmed",
+          "notes": null
+        }
+      ],
+      "variants": [
+        {
+          "id": "f-14a-gr",
+          "name": "F-14A-GR (Iran export configuration)",
+          "notes": "Some ECM differences vs USN reported."
+        }
+      ],
+      "predecessorIds": [],
+      "successorIds": [],
+      "relations": [],
+      "operators": [
+        "Imperial Iranian Air Force",
+        "Islamic Republic of Iran Air Force"
+      ],
+      "confidence": "Strongly documented",
+      "disputedClaims": [
+        "Exact current serviceable fleet size.",
+        "Individual Iran–Iraq War aerial victory tallies."
+      ],
+      "notes": "Stress unique export status and embargo-era sustainment rather than unverified kill counts.",
+      "sources": [
+        "src-key-f14-50",
+        "src-aviatia-iranian-f14",
+        "src-iiaf-f14",
+        "src-tagc-persian-king"
+      ]
+    },
+    {
+      "id": "f-4e-phantom-iriaf",
+      "names": {
+        "en": "McDonnell Douglas F-4E Phantom II (IRIAF)",
+        "fa": "اف-۴ ای فانتوم ۲"
+      },
+      "alternativeNames": [
+        "F-4D",
+        "RF-4E"
+      ],
+      "designation": "F-4E",
+      "category": "aircraft",
+      "originCountry": "United States",
+      "originType": "imported",
+      "developer": "McDonnell Douglas",
+      "manufacturer": "McDonnell Douglas",
+      "developmentPeriod": "1950s–1960s",
+      "introductionPeriod": "1968–1970s (Iranian deliveries)",
+      "productionStatus": "out_of_production",
+      "serviceStatus": "in_service",
+      "historicalPeriod": "pahlavi|iran-iraq-war|post-war",
+      "description": {
+        "en": "Cornerstone fighter-bomber of IIAF/IRIAF. Iran received F-4D, large numbers of F-4E, and RF-4E reconnaissance aircraft before 1979. After the embargo, IRIAF kept Phantoms flying through Mehrabad depot overhaul and domestic parts programs.",
+        "fa": null
+      },
+      "historicalContext": {
+        "en": "First F-4Ds late 1960s; F-4Es from 1971 under Peace Roll FMS. Flew deep strike and air combat in the Iran–Iraq War; remain in service into the 21st century.",
+        "fa": null
+      },
+      "technologicalSignificance": {
+        "en": "Long-term industrial adaptation: structural repair, cannibalization, and selective avionics/weapons integration on a Cold War U.S. airframe.",
+        "fa": null
+      },
+      "specifications": [
+        {
+          "key": "f4e_delivered_pre1979",
+          "value": "177",
+          "unit": null,
+          "confidence": "Strongly documented",
+          "notes": "Key.Aero Phantom Survivors; final batches cancelled by embargo."
+        },
+        {
+          "key": "f4d_delivered",
+          "value": "32",
+          "unit": null,
+          "confidence": "Strongly documented",
+          "notes": "Two batches of 16 commonly cited."
+        },
+        {
+          "key": "rf4e_delivered",
+          "value": "16",
+          "unit": null,
+          "confidence": "Strongly documented",
+          "notes": "Larger order truncated by embargo."
+        },
+        {
+          "key": "crew",
+          "value": "2",
+          "unit": null,
+          "confidence": "Confirmed",
+          "notes": null
+        }
+      ],
+      "variants": [
+        {
+          "id": "f-4d",
+          "name": "F-4D",
+          "notes": "Earlier Iranian Phantom variant."
+        },
+        {
+          "id": "f-4e",
+          "name": "F-4E",
+          "notes": "Principal fighter-bomber type."
+        },
+        {
+          "id": "rf-4e",
+          "name": "RF-4E",
+          "notes": "Reconnaissance."
+        }
+      ],
+      "predecessorIds": [],
+      "successorIds": [],
+      "relations": [],
+      "operators": [
+        "Imperial Iranian Air Force",
+        "Islamic Republic of Iran Air Force"
+      ],
+      "confidence": "Strongly documented",
+      "disputedClaims": [
+        "Current airworthy inventory (estimates differ)."
+      ],
+      "notes": "Do not invent upgrade performance claims.",
+      "sources": [
+        "src-key-phantom-survivors",
+        "src-key-f4-ageing",
+        "src-scramble-iriaf-orbat"
+      ]
+    },
+    {
+      "id": "f-5ef-tiger-iriaf",
+      "names": {
+        "en": "Northrop F-5E/F Tiger II (IRIAF)",
+        "fa": "اف-۵ ای/اف تایگر ۲"
+      },
+      "alternativeNames": [
+        "Tiger II",
+        "Kowsar (upgrade/derivative)",
+        "Saeqeh (related derivative)"
+      ],
+      "designation": "F-5E/F",
+      "category": "aircraft",
+      "originCountry": "United States",
+      "originType": "imported",
+      "developer": "Northrop",
+      "manufacturer": "Northrop; later Iranian modernization by IAMI/HESA",
+      "developmentPeriod": "early 1970s (Tiger II)",
+      "introductionPeriod": "mid-1970s (Iran)",
+      "productionStatus": "out_of_production_original; limited_iranian_derivative_work",
+      "serviceStatus": "in_service",
+      "historicalPeriod": "pahlavi|iran-iraq-war|post-war",
+      "description": {
+        "en": "Light fighter and lead-in trainer that equipped multiple IIAF/IRIAF squadrons. After the embargo, Iran kept F-5E/F airworthy and launched domestic upgrade lines (Kowsar) and visually modified derivatives (Saeqeh).",
+        "fa": null
+      },
+      "historicalContext": {
+        "en": "Tiger IIs replaced earlier F-5A/B types mid-1970s. Fought in Iran–Iraq War; remain in training and secondary roles. June 2020 ceremonies handed over Kowsar-upgraded F-5Fs.",
+        "fa": null
+      },
+      "technologicalSignificance": {
+        "en": "Baseline for Iran’s most visible indigenous fighter derivatives; distinguish imported F-5s from later modified projects.",
+        "fa": null
+      },
+      "specifications": [
+        {
+          "key": "crew_f5e",
+          "value": "1",
+          "unit": null,
+          "confidence": "Confirmed",
+          "notes": null
+        },
+        {
+          "key": "crew_f5f",
+          "value": "2",
+          "unit": null,
+          "confidence": "Confirmed",
+          "notes": null
+        },
+        {
+          "key": "engines",
+          "value": "2 × J85 turbojets (baseline)",
+          "unit": null,
+          "confidence": "Confirmed",
+          "notes": null
+        }
+      ],
+      "variants": [
+        {
+          "id": "f-5e",
+          "name": "F-5E",
+          "notes": "Single-seat."
+        },
+        {
+          "id": "f-5f",
+          "name": "F-5F",
+          "notes": "Two-seat."
+        },
+        {
+          "id": "kowsar",
+          "name": "Kowsar",
+          "notes": "Iranian modernization/new-build F-5F-derived; modified_from_foreign / manufactured_in_iran."
+        },
+        {
+          "id": "saeqeh",
+          "name": "Saeqeh",
+          "notes": "F-5-based twin-tail modification; not clean-sheet."
+        }
+      ],
+      "predecessorIds": [],
+      "successorIds": [],
+      "relations": [],
+      "operators": [
+        "Imperial Iranian Air Force",
+        "Islamic Republic of Iran Air Force"
+      ],
+      "confidence": "Strongly documented",
+      "disputedClaims": [
+        "How much of Kowsar is new-manufacture versus remanufacture.",
+        "Current exact fleet totals."
+      ],
+      "notes": "Baseline originType is imported; label derivatives separately.",
+      "sources": [
+        "src-key-f5-fleet",
+        "src-baugher-f5-iran",
+        "src-aviationist-kowsar"
+      ]
+    },
+    {
+      "id": "ah-1j-seacobra-iriaa",
+      "names": {
+        "en": "Bell AH-1J International SeaCobra",
+        "fa": "بل ای‌اچ-۱ جی سی‌کبرا"
+      },
+      "alternativeNames": [
+        "AH-1J International",
+        "Cobra",
+        "Panha 2091 Toufan",
+        "Toufan I/II"
+      ],
+      "designation": "AH-1J",
+      "category": "helicopter",
+      "originCountry": "United States",
+      "originType": "imported",
+      "developer": "Bell Helicopter",
+      "manufacturer": "Bell Helicopter; Iranian overhaul/upgrade by IHSRC/Panha and IAMI",
+      "developmentPeriod": "late 1960s–1970s",
+      "introductionPeriod": "1970s (Imperial Iranian Army Aviation)",
+      "productionStatus": "out_of_production_original; iranian_upgrade_ongoing",
+      "serviceStatus": "in_service",
+      "historicalPeriod": "pahlavi|iran-iraq-war|post-war",
+      "description": {
+        "en": "Twin-engine attack helicopter purchased as AH-1J International. Primary operator is Iranian Army Aviation (Havanirooz/IRIAA), not IRIAF. A minority of the original fleet was TOW-capable. Post-embargo overhauls/upgrades include Panha 2091/Toufan.",
+        "fa": null
+      },
+      "historicalContext": {
+        "en": "Pre-1979 purchase commonly cited as 202 aircraft (62 TOW-capable). Heavily used against Iraqi armor early in the Iran–Iraq War. IRGC Army Aviation later obtained a small number.",
+        "fa": null
+      },
+      "technologicalSignificance": {
+        "en": "Shows Iran’s rotary-wing sustainment ecosystem and incremental indigenous modernization of an embargoed U.S. type.",
+        "fa": null
+      },
+      "specifications": [
+        {
+          "key": "aircraft_purchased",
+          "value": "202",
+          "unit": null,
+          "confidence": "Strongly documented",
+          "notes": "Widely cited AH-1J International total."
+        },
+        {
+          "key": "tow_capable_subset",
+          "value": "62",
+          "unit": null,
+          "confidence": "Strongly documented",
+          "notes": null
+        },
+        {
+          "key": "crew",
+          "value": "2",
+          "unit": null,
+          "confidence": "Confirmed",
+          "notes": null
+        }
+      ],
+      "variants": [
+        {
+          "id": "ah-1j-intl",
+          "name": "AH-1J International",
+          "notes": "Baseline import."
+        },
+        {
+          "id": "panha-2091",
+          "name": "Panha 2091 Toufan",
+          "notes": "Iranian overhaul/upgrade; originType modified_from_foreign."
+        }
+      ],
+      "predecessorIds": [],
+      "successorIds": [],
+      "relations": [
+        {
+          "type": "related",
+          "targetId": "toophan-atgm",
+          "note": "TOW/Toophan family associated with TOW-capable Cobras."
+        }
+      ],
+      "operators": [
+        "Imperial Iranian Army Aviation",
+        "Islamic Republic of Iran Army Aviation",
+        "IRGC Army Aviation (small number)"
+      ],
+      "confidence": "Strongly documented",
+      "disputedClaims": [
+        "Current total airworthy Cobras.",
+        "Detailed Toufan performance claims."
+      ],
+      "notes": "CORRECTED: brief said IRIAF, but sources place AH-1J with Army Aviation (IRIAA) and limited IRGC aviation—not IRIAF.",
+      "sources": [
+        "src-wiki-ah1-supercobra",
+        "src-key-ah1j-upgrade",
+        "src-wiki-panha-2091"
+      ]
+    },
+    {
+      "id": "mim-23-hawk-iran",
+      "names": {
+        "en": "Raytheon MIM-23 Improved HAWK",
+        "fa": "هاوک / مرصاد"
+      },
+      "alternativeNames": [
+        "I-HAWK",
+        "PEACE SHIELD",
+        "Mersad",
+        "Shahin",
+        "Shalamcheh"
+      ],
+      "designation": "MIM-23",
+      "category": "air-defense",
+      "originCountry": "United States",
+      "originType": "imported",
+      "developer": "Raytheon",
+      "manufacturer": "Raytheon (original); Iranian reverse-engineered Mersad/Shahin later",
+      "developmentPeriod": "1950s–1970s (US Improved HAWK)",
+      "introductionPeriod": "1970s (Iran PEACE SHIELD)",
+      "productionStatus": "us_out_of_production; iranian_derived_in_production",
+      "serviceStatus": "in_service_via_derived_systems",
+      "historicalPeriod": "pahlavi|iran-iraq-war|post-war",
+      "description": {
+        "en": "Medium-range semi-active radar-homing SAM. Imperial Iranian Air Force bought Improved HAWK batteries under PEACE SHIELD FMS in 1972. After 1979 suspension of U.S. support, Iran maintained HAWK equipment and later fielded Mersad using Shahin/Shalamcheh missiles derived from HAWK technology.",
+        "fa": null
+      },
+      "historicalContext": {
+        "en": "U.S. Army Redstone chronology: July 1972 FMS for 24 Improved HAWK batteries (nearly USD 280 million); formal suspension 4 November 1979. Iran Watch: Mersad declared operational April 2010.",
+        "fa": null
+      },
+      "technologicalSignificance": {
+        "en": "Imported Western SAM architecture later reverse-engineered into Iranian Mersad family.",
+        "fa": null
+      },
+      "specifications": [
+        {
+          "key": "batteries_ordered_1972",
+          "value": "24",
+          "unit": null,
+          "confidence": "Confirmed",
+          "notes": "Redstone Arsenal chronology."
+        },
+        {
+          "key": "fms_case_value_approx",
+          "value": "280000000",
+          "unit": "USD_1972",
+          "confidence": "Confirmed",
+          "notes": "Redstone: nearly $280 million."
+        },
+        {
+          "key": "mersad_service_entry",
+          "value": "2010-04",
+          "unit": null,
+          "confidence": "Strongly documented",
+          "notes": "Iranian MoD announcement via Iran Watch."
+        }
+      ],
+      "variants": [
+        {
+          "id": "i-hawk",
+          "name": "Improved HAWK (imported)",
+          "notes": "originType imported"
+        },
+        {
+          "id": "mersad",
+          "name": "Mersad",
+          "notes": "originType reverse_engineered / developed_in_iran"
+        },
+        {
+          "id": "shahin",
+          "name": "Shahin missile",
+          "notes": "HAWK-derived"
+        },
+        {
+          "id": "shalamcheh",
+          "name": "Shalamcheh missile",
+          "notes": "Further Iranian HAWK-family missile"
+        }
+      ],
+      "predecessorIds": [],
+      "successorIds": [],
+      "relations": [],
+      "operators": [
+        "Imperial Iranian Air Force",
+        "Islamic Republic of Iran Air Defense Force"
+      ],
+      "confidence": "Strongly documented",
+      "disputedClaims": [
+        "Remaining original HAWK hardware vs indigenous Mersad inventories.",
+        "Published Mersad engagement ranges."
+      ],
+      "notes": "Separate PEACE SHIELD import era from post-2010 Mersad family on labels.",
+      "sources": [
+        "src-redstone-hawk",
+        "src-iranwatch-milestones",
+        "src-wits-airdefense-2023"
+      ]
+    }
+  ]
+}
