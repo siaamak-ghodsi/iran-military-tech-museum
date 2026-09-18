@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "iran-military-tech-museum",
+  "main": ".output/server/index.mjs",
+  "compatibility_date": "2026-01-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".output/public",
+    "binding": "ASSETS"
+  }
+}
