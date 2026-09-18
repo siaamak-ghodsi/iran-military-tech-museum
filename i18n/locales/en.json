@@ -1,0 +1,97 @@
+{
+  "museum": {
+    "title": "Iranian Military Technology",
+    "subtitle": "An interactive digital museum of Iranian military technology.",
+    "tagline": "Archival · Historical · Educational",
+    "disclaimer": "This exhibit presents documented history and technology for education. It is not an operational guide.",
+    "nav": {
+      "explore": "Explore",
+      "timeline": "Timeline",
+      "categories": "Categories",
+      "compare": "Compare",
+      "collection3d": "3D Collection",
+      "periods": "Periods",
+      "sources": "Sources",
+      "search": "Search"
+    },
+    "home": {
+      "heroCta": "Enter the archive",
+      "featured": "Featured systems",
+      "journey": "Suggested journey",
+      "journeySteps": "Home → Timeline → 1970s → Aircraft → F-14 → 3D viewer → Sources"
+    },
+    "timeline": {
+      "title": "Interactive timeline",
+      "filterCategory": "Category",
+      "filterPeriod": "Period",
+      "all": "All",
+      "scrollHint": "Scroll horizontally — arrow keys move focus between cards when focused"
+    },
+    "system": {
+      "history": "History",
+      "techSignificance": "Technological significance",
+      "specs": "Documented specifications",
+      "variants": "Variants",
+      "related": "Related systems",
+      "sources": "Sources",
+      "confidence": "Record confidence",
+      "origin": "Origin type",
+      "disputed": "Disputed or varying reports",
+      "view3d": "Open 3D exhibit",
+      "noSpecs": "No independently verified specifications in this slice — see sources.",
+      "curatorNotes": "Curator notes"
+    },
+    "compare": {
+      "title": "Compare systems",
+      "select": "Select two systems",
+      "noRanking": "Side-by-side documented characteristics only — no rankings.",
+      "characteristic": "Characteristic"
+    },
+    "search": {
+      "placeholder": "Search names (EN/FA), designations, categories…",
+      "noResults": "No matching systems."
+    },
+    "3d": {
+      "title": "3D collection",
+      "controls": "Drag to orbit · Scroll to zoom · Shift+drag to pan",
+      "reset": "Reset view",
+      "fullscreen": "Fullscreen",
+      "provenance": "Model provenance",
+      "fallback": "No 3D model — showing exhibit placeholder image."
+    },
+    "sources": {
+      "title": "Source registry",
+      "accessed": "Accessed",
+      "published": "Published",
+      "claim": "Relevant claim",
+      "conflicts": "Conflicts noted with"
+    },
+    "confidence": {
+      "confirmed": "Confirmed",
+      "strongly_documented": "Strongly documented",
+      "probable": "Probable",
+      "disputed": "Disputed",
+      "unknown": "Unknown"
+    },
+    "origin": {
+      "designed_in_iran": "Designed in Iran",
+      "developed_in_iran": "Developed in Iran",
+      "manufactured_in_iran": "Manufactured in Iran",
+      "assembled_in_iran": "Assembled in Iran",
+      "licensed": "Licensed",
+      "imported": "Imported",
+      "modified": "Modified in Iran",
+      "reverse_engineered": "Reverse-engineered lineage",
+      "joint": "Joint program",
+      "captured": "Captured lineage",
+      "disputed_attribution": "Disputed attribution"
+    },
+    "provenance": {
+      "archival": "Archival scan",
+      "reconstructed": "Reconstructed",
+      "approximate": "Approximate",
+      "concept": "Concept / silhouette",
+      "none": "None"
+    }
+  }
+}

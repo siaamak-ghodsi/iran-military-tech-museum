@@ -1,0 +1,97 @@
+{
+  "museum": {
+    "title": "فناوری نظامی ایران",
+    "subtitle": "موزه دیجیتال تعاملی فناوری نظامی ایران.",
+    "tagline": "آرشیوی · تاریخی · آموزشی",
+    "disclaimer": "این نمایشگاه تاریخ و فناوری مستند را برای آموزش ارائه می‌دهد؛ راهنمای عملیاتی نیست.",
+    "nav": {
+      "explore": "کاوش",
+      "timeline": "خط زمانی",
+      "categories": "دسته‌ها",
+      "compare": "مقایسه",
+      "collection3d": "مجموعه سه‌بعدی",
+      "periods": "دوره‌ها",
+      "sources": "منابع",
+      "search": "جستجو"
+    },
+    "home": {
+      "heroCta": "ورود به آرشیو",
+      "featured": "سامانه‌های برجسته",
+      "journey": "مسیر پیشنهادی",
+      "journeySteps": "خانه → خط زمانی → ۱۳۵۰ → هواپیما → اف-۱۴ → نمای سه‌بعدی → منابع"
+    },
+    "timeline": {
+      "title": "خط زمانی تعاملی",
+      "filterCategory": "دسته",
+      "filterPeriod": "دوره",
+      "all": "همه",
+      "scrollHint": "افقی scroll کنید — با Tab روی کارت‌ها، جهت‌نما جابه‌جا می‌شود"
+    },
+    "system": {
+      "history": "تاریخ",
+      "techSignificance": "اهمیت فناورانه",
+      "specs": "مشخصات مستند",
+      "variants": "گونه‌ها",
+      "related": "سامانه‌های مرتبط",
+      "sources": "منابع",
+      "confidence": "اطمینان رکورد",
+      "origin": "نوع منشأ",
+      "disputed": "گزارش‌های متعارض یا متفاوت",
+      "curatorNotes": "یادداشت‌های کیوریتور",
+      "view3d": "نمایش سه‌بعدی",
+      "noSpecs": "در این نسخه مشخصات تأییدشده مستقل نیست — منابع را ببینید."
+    },
+    "compare": {
+      "title": "مقایسه سامانه‌ها",
+      "select": "دو سامانه انتخاب کنید",
+      "noRanking": "فقط ویژگی‌های مستند — بدون رتبه‌بندی.",
+      "characteristic": "ویژگی"
+    },
+    "search": {
+      "placeholder": "نام (EN/FA)، designation، دسته…",
+      "noResults": "سامانه‌ای یافت نشد."
+    },
+    "3d": {
+      "title": "مجموعه سه‌بعدی",
+      "controls": "چرخش · zoom · Shift+کشیدن برای pan",
+      "reset": "بازنشانی نما",
+      "fullscreen": "تمام‌صفحه",
+      "provenance": "منشأ مدل",
+      "fallback": "بدون مدل سه‌بعدی — کارت جایگزین."
+    },
+    "sources": {
+      "title": "فهرست منابع",
+      "accessed": "دسترسی",
+      "published": "انتشار",
+      "claim": "ادعای مرتبط",
+      "conflicts": "تعارض با"
+    },
+    "confidence": {
+      "confirmed": "تأییدشده",
+      "strongly_documented": "مستندسازی قوی",
+      "probable": "محتمل",
+      "disputed": "متعارض",
+      "unknown": "نامشخص"
+    },
+    "origin": {
+      "designed_in_iran": "طراحی در ایران",
+      "developed_in_iran": "توسعه در ایران",
+      "manufactured_in_iran": "تولید در ایران",
+      "assembled_in_iran": "مونتاژ در ایران",
+      "licensed": "تحت مجوز",
+      "imported": "وارداتی",
+      "modified": "اصلاح‌شده در ایران",
+      "reverse_engineered": "رشتهٔ مهندسی معکوس",
+      "joint": "برنامه مشترک",
+      "captured": "رشتهٔ به‌کارگیری غنیمت",
+      "disputed_attribution": "انتساب متعارض"
+    },
+    "provenance": {
+      "archival": "اسکن آرشیوی",
+      "reconstructed": "بازسازی‌شده",
+      "approximate": "تقریبی",
+      "concept": "مفهومی / سیلوئت",
+      "none": "ندارد"
+    }
+  }
+}
