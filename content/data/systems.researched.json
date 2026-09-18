@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-09-17",
   "methodologyNote": "Accuracy-first educational museum seed. Prefer null over invention. Every specification carries a confidence tag. No operational targeting, construction recipes, or lethality-optimization content.",
-  "systemCount": 5,
+  "systemCount": 7,
   "systems": [
     {
       "id": "f-14a-tomcat-iriaf",
@@ -483,6 +483,220 @@
         "src-redstone-hawk",
         "src-iranwatch-milestones",
         "src-wits-airdefense-2023"
+      ]
+    },
+    {
+      "id": "chieftain-fv4030-mobarez",
+      "names": {
+        "en": "FV4201 Chieftain / FV4030 / Mobarez",
+        "fa": "چیفتن / مبارز"
+      },
+      "alternativeNames": [
+        "Chieftain Mk 3P",
+        "Chieftain Mk 5P",
+        "FV4030/1 Improved Chieftain",
+        "Shir 1 (FV4030/2, not delivered)",
+        "Shir 2 (FV4030/3, not delivered)",
+        "Mobarez"
+      ],
+      "designation": "FV4201 / FV4030 / Mobarez",
+      "category": "armored",
+      "originCountry": "United Kingdom (base vehicle); Iran (Mobarez upgrade)",
+      "originType": "imported",
+      "developer": "UK (Leyland/ROF lineage); Iranian upgrade authorities for Mobarez",
+      "manufacturer": "UK production for Iran; Iranian depots for Mobarez",
+      "developmentPeriod": "1950s–1970s (Chieftain); Mobarez upgrades reported mid-2000s",
+      "introductionPeriod": "1970s (Iranian Chieftain deliveries)",
+      "productionStatus": "out_of_production",
+      "serviceStatus": "in_service_limited",
+      "historicalPeriod": "pahlavi|iran-iraq-war|post-war",
+      "description": {
+        "en": "British MBT with 120 mm L11 gun. Iran was the largest export customer, receiving Mk 3P/5P and improved FV4030/1 before 1979. Shir 1 (FV4030/2) and Shir 2 (FV4030/3) orders were cancelled after the Revolution; undelivered Shir designs fed Jordan’s Khalid and Britain’s Challenger 1. Mobarez is an Iranian upgrade name for surviving Chieftains—not a UK export model. Specific Mobarez performance data remain poorly documented.",
+        "fa": null
+      },
+      "historicalContext": {
+        "en": "Open references commonly state 707 Mk 3P/5P MBTs plus 187 FV4030/1, with ARV/AVLB support vehicles. Chieftains fought in the Iran–Iraq War with mixed results constrained by automotive reliability.",
+        "fa": null
+      },
+      "technologicalSignificance": {
+        "en": "Documents UK–Iran armored relationship, aborted Shir program influence on Challenger, and Iranian renaming of modernized foreign armor.",
+        "fa": null
+      },
+      "specifications": [
+        {
+          "key": "mk3p_mk5p_received",
+          "value": "707",
+          "unit": null,
+          "confidence": "Strongly documented",
+          "notes": "Widely cited from Osprey/SIPRI-derived literature."
+        },
+        {
+          "key": "fv4030_1_received",
+          "value": "187",
+          "unit": null,
+          "confidence": "Strongly documented",
+          "notes": null
+        },
+        {
+          "key": "main_gun",
+          "value": "120",
+          "unit": "mm",
+          "confidence": "Confirmed",
+          "notes": "Royal Ordnance L11 rifled gun (baseline Chieftain)."
+        },
+        {
+          "key": "crew",
+          "value": "4",
+          "unit": null,
+          "confidence": "Confirmed",
+          "notes": null
+        },
+        {
+          "key": "mobarez_engine_power",
+          "value": null,
+          "unit": "hp",
+          "confidence": "Unknown",
+          "notes": "Open claims (~850 hp) insufficiently sourced for confirmation."
+        }
+      ],
+      "variants": [
+        {
+          "id": "chieftain-mk3p",
+          "name": "Chieftain Mk 3P",
+          "notes": "Persian export; imported"
+        },
+        {
+          "id": "chieftain-mk5p",
+          "name": "Chieftain Mk 5P",
+          "notes": "Persian export; imported"
+        },
+        {
+          "id": "fv4030-1",
+          "name": "FV4030/1 Improved Chieftain",
+          "notes": "Delivered"
+        },
+        {
+          "id": "fv4030-2-shir1",
+          "name": "FV4030/2 Shir 1",
+          "notes": "Ordered for Iran; NOT delivered; basis for Jordan Khalid"
+        },
+        {
+          "id": "fv4030-3-shir2",
+          "name": "FV4030/3 Shir 2",
+          "notes": "Ordered for Iran; NOT delivered; related to Challenger 1"
+        },
+        {
+          "id": "mobarez",
+          "name": "Mobarez",
+          "notes": "Iranian upgrade; originType modified_from_foreign. Specs largely Unknown."
+        }
+      ],
+      "predecessorIds": [],
+      "successorIds": [],
+      "relations": [],
+      "operators": [
+        "Imperial Iranian Ground Force",
+        "Islamic Republic of Iran Army"
+      ],
+      "confidence": "Strongly documented",
+      "disputedClaims": [
+        "Iran–Iraq War Chieftain loss totals.",
+        "Detailed Mobarez automotive/fire-control specifications."
+      ],
+      "notes": "CRITICAL: Do not invent Mobarez specs. Label Shir 1/2 as undelivered.",
+      "sources": [
+        "src-wiki-chieftain",
+        "src-globalsecurity-khalid",
+        "src-wiki-mobarez"
+      ]
+    },
+    {
+      "id": "bmp-1-iran",
+      "names": {
+        "en": "BMP-1 Infantry Fighting Vehicle (Iran)",
+        "fa": "بی‌ام‌پی-۱"
+      },
+      "alternativeNames": [
+        "Type 86 (Chinese related)",
+        "Boragh (Iranian related family)"
+      ],
+      "designation": "BMP-1",
+      "category": "armored",
+      "originCountry": "Soviet Union (design); mixed suppliers to Iran",
+      "originType": "imported",
+      "developer": "Soviet design bureaus",
+      "manufacturer": "Soviet/Warsaw Pact plants; Chinese Type 86 copies; Iranian Boragh related production",
+      "developmentPeriod": "1960s",
+      "introductionPeriod": "1980s (Iranian service)",
+      "productionStatus": "out_of_production_original",
+      "serviceStatus": "in_service",
+      "historicalPeriod": "iran-iraq-war|post-war",
+      "description": {
+        "en": "Tracked IFV. Iran acquired BMP-1s during/after the Iran–Iraq War through multiple reported channels and later operated Chinese Type 86 vehicles. Iran also developed the Boragh family influenced by BMP-1/Type 86 design.",
+        "fa": null
+      },
+      "historicalContext": {
+        "en": "Secondary operator lists report Syrian and Soviet/Czechoslovak supply routes in the 1980s plus Chinese copies. Exact import batches remain uncertain.",
+        "fa": null
+      },
+      "technologicalSignificance": {
+        "en": "Introduced mechanized IFV concepts into Iranian ground forces and informed later Boragh production.",
+        "fa": null
+      },
+      "specifications": [
+        {
+          "key": "main_armament_baseline",
+          "value": "73 mm 2A28 Grom + ATGM rail (original)",
+          "unit": null,
+          "confidence": "Confirmed",
+          "notes": "Baseline Soviet design; Iranian local mods may differ."
+        },
+        {
+          "key": "iranian_inventory",
+          "value": null,
+          "unit": null,
+          "confidence": "Unknown",
+          "notes": "Yearbook figures vary; leave null pending IISS citation."
+        }
+      ],
+      "variants": [
+        {
+          "id": "bmp-1",
+          "name": "BMP-1",
+          "notes": "Imported"
+        },
+        {
+          "id": "type-86",
+          "name": "Type 86",
+          "notes": "Chinese BMP-1-derived; imported"
+        },
+        {
+          "id": "boragh",
+          "name": "Boragh",
+          "notes": "Iranian related family"
+        }
+      ],
+      "predecessorIds": [],
+      "successorIds": [],
+      "relations": [
+        {
+          "type": "related",
+          "targetId": "t-72s-iran",
+          "note": "Often discussed together in 1990s Russian armored packages."
+        }
+      ],
+      "operators": [
+        "Islamic Republic of Iran Army",
+        "IRGC Ground Force (reported)"
+      ],
+      "confidence": "Probable",
+      "disputedClaims": [
+        "Exact numbers imported by source country and year.",
+        "Current inventory by variant."
+      ],
+      "notes": "Prefer IISS when updating inventories.",
+      "sources": [
+        "src-wiki-bmp1-operators"
       ]
     }
   ]
