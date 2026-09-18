@@ -1,1 +1,1 @@
-@workspace/README.md
+PLACEHOLDER_README
